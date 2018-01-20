@@ -1,0 +1,24 @@
+Usage:
+tpi <command> [options]
+
+Commands:
+  install                     Install packages.
+  uninstall, remove           Remove packages.
+  search                      Search packages on TrPI.
+  list                        List installed package.
+  show                        Show information about a package.
+  help                        Show help.
+
+  addserver                   Add a server.
+  removeserver                Remove a server.
+  regserver                   Register the added server to Tritium.
+  loginaccount                Login your Tritium account.
+
+  gui                         Running TrPI GUI.
+
+General Options:
+  -h                          Show help.
+  -v                          Show TrIP version.
+  -o                          Set the target server name(must added).
+  -O                          Set the target server path.
+  -y                          Keep "yes" options
