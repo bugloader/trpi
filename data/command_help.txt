@@ -19,6 +19,7 @@ Commands:
 General Options:
   -h                          Show help.
   -v                          Show TrIP version.
-  -o                          Set the target server name(must added).
-  -O                          Set the target server path.
-  -y                          Keep "yes" options
+  -o <server>                 Set the target server name(must added).
+  -O <path>                   Set the target server path.
+  -y                          Keep "yes" options.
+  -i <source>                 Use community TrPI source.

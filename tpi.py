@@ -20,13 +20,16 @@ def main(argv):
         "loginaccount",
         "gui",
     ]
+
     for cmd in cmd_list:
         if argv[0] == cmd:
             eval("wk." + cmd)()
+            exit(0)
 
     # Not in command list:
     if argv[0] not in cmd_list:
         wk.help()
+        exit(0)
 
 
 if __name__ == "__main__":
